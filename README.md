@@ -1,6 +1,6 @@
 # dovevivo# Angular Assessment 
 
-Welcome to our awesome Dovevivo assessment! 🚀
+Welcome to  Dovevivo assessment! 🚀
 
 ## Getting Started
 
