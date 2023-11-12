@@ -21,7 +21,7 @@ ng serve
 # Run tests
 ng test
 ### Access Backend
-git switch backend (you can switch to backend branche)
+cd backend 
 # Install dependencies
 npm install
 # Start 
