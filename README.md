@@ -20,4 +20,12 @@ npm install
 ng serve
 # Run tests
 ng test
-
+### Access Backend
+git switch backend (you can switch to backend branche)
+# Install dependencies
+npm install
+# Start 
+npm start
+### Don't worry the database will created auto
+# Start mongodb
+mongod
