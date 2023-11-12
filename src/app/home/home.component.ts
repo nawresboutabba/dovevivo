@@ -10,6 +10,19 @@ import { ContactService } from '../contact.service';
 })
 export class HomeComponent implements OnInit {
 
+  contactList: Contact[]
+
+  constructor(private router: Router, private contactService: ContactService) { }
+
+  test: string = ''
+
+  ngOnInit() {
+    this.contactService.getContacts().subscribe(data => {
+      this.contactList = data.sort((a, b) => {
+        return a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1
+      })
+    })
+  }
 
   // Add New Contact
   addContact(): void {
